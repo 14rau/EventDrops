@@ -81,9 +81,9 @@ export default (
 
     zoom.on('zoom.start', onZoomStart).on('zoom.end', onZoomEnd);
 
-    zoom.on('zoom', args => {
+    zoom.on('zoom', (ev, args) => {
         const transform = getShiftedTransform(
-            getEvent().transform,
+            ev.transform,
             labelsWidth,
             labelsPadding,
             d3
