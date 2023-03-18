@@ -1,5 +1,5 @@
 {
-  "name": "event-drops",
+  "name": "@neuroglia/event-drops",
   "version": "1.4.0",
   "description": "A time based / event series interactive visualization using d3.js. Use drag and zoom to navigate in time. (Unofficial fork - d3 v6+ & other improvements)",
   "main": "dist/index.js",
