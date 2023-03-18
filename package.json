@@ -1,7 +1,7 @@
 {
   "name": "event-drops",
-  "version": "1.3.0",
-  "description": "A time based / event series interactive visualization using d3.js. Use drag and zoom to navigate in time.",
+  "version": "1.4.0",
+  "description": "A time based / event series interactive visualization using d3.js. Use drag and zoom to navigate in time. (Unofficial fork - d3 v6+ & other improvements)",
   "main": "dist/index.js",
   "files": [
     "dist/",
@@ -9,7 +9,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/marmelab/EventDrops"
+    "url": "https://github.com/neuroglia-io/EventDrops"
   },
   "peerDependencies": {
     "d3": "~6.6.1"
@@ -104,7 +104,10 @@
     "Simon Hartcher <simon@simonhartcher.com> (https://github.com/deevus)",
     "Mélodie Benmouffek (https://github.com/benmoufm)",
     "marmelab-bot (https://github.com/marmelab-bot)",
-    "messense <messense@icloud.com> (https://github.com/messense)"
+    "messense <messense@icloud.com> (https://github.com/messense)",
+    "Haakon Thor Brunstad (https://github.com/Busteren)",
+    "bastianonm (https://github.com/bastianonm)",
+    "Jean-Baptiste Bianchi (https://github.com/neuroglia-io/)"
   ],
   "license": "MIT"
 }
