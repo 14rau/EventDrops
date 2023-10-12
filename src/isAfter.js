@@ -1,4 +1,4 @@
-import dateIsAfter from 'date-fns/is_after';
+import dateIsAfter from 'date-fns/isAfter';
 
 export const isAfter = (date, dateBounds) => {
     const endingDate = Math.max(...dateBounds);
